@@ -6,7 +6,9 @@ user and uid arguments cause it will be used in the Dockerfile at build time bec
 permisions in directory without a root user (good practices and more safety).
 
 You can find your USER and UID by using following commands:
+
 $ echo $USER 
 
 $ echo $UID
+
 And replace it with your user and uid in docker compose file.
